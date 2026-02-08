@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Mahdi Bayat</title>
+  <meta name="description" content="System Architect | IoT & Embedded Products" />
+  <style>
+    :root { --ink:#0f172a; --muted:#64748b; --line:#e2e8f0; }
+    body { margin:0; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial;
+           color:var(--ink); background:#fff; }
+    .wrap { max-width:720px; margin:0 auto; padding:40px 20px; }
+    .bar { height:10px; background:#1f2e3d; border-radius:999px; margin-bottom:28px; }
+    .head { display:flex; gap:18px; align-items:center; }
+    .avatar { width:72px; height:72px; border-radius:16px; background:#f1f5f9; border:1px solid var(--line); overflow:hidden; }
+    .avatar img{ width:100%; height:100%; object-fit:cover; }
+    h1 { font-size:28px; margin:0; line-height:1.15; }
+    .sub { margin-top:6px; color:var(--muted); font-size:14px; }
+    .grid { margin-top:26px; display:grid; gap:12px; }
+    a.btn { display:flex; justify-content:space-between; align-items:center;
+            padding:14px 16px; border:1px solid var(--line); border-radius:14px;
+            text-decoration:none; color:var(--ink); }
+    a.btn:hover { border-color:#cbd5e1; background:#f8fafc; }
+    .tag { color:var(--muted); font-size:12px; }
+    .foot { margin-top:22px; padding-top:16px; border-top:1px solid var(--line); color:var(--muted); font-size:12px; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="bar"></div>
+
+    <div class="head">
+      <div class="avatar">
+        <!-- Put your photo here as avatar.jpg (optional) -->
+        <img src="avatar.jpg" alt="Mahdi Bayat" onerror="this.style.display='none'">
+      </div>
+      <div>
+        <h1>Mahdi Bayat</h1>
+        <div class="sub">System Architect | IoT & Embedded Products</div>
+        <div class="sub">12+ Years • China & Europe Collaboration</div>
+      </div>
+    </div>
+
+    <div class="grid">
+      <a class="btn" href="https://linkedin.com/in/YOUR_LINKEDIN" target="_blank" rel="noopener">
+        <span>LinkedIn</span><span class="tag">Profile</span>
+      </a>
+      <a class="btn" href="https://instagram.com/YOUR_INSTAGRAM" target="_blank" rel="noopener">
+        <span>Instagram</span><span class="tag">Updates</span>
+      </a>
+      <a class="btn" href="Mahdi_Bayat_CTO_Strategic_Final.pdf" target="_blank">
+        <span>Resume (Short)</span><span class="tag">PDF</span>
+      </a>
+      <a class="btn" href="resume-long.pdf" target="_blank">
+        <span>Resume (Full)</span><span class="tag">PDF</span>
+      </a>
+      <a class="btn" href="mailto:YOUR_EMAIL">
+        <span>Email</span><span class="tag">Contact</span>
+      </a>
+    </div>
+
+    <div class="foot">
+      © <span id="y"></span> Mahdi Bayat • mahdibayat.com
+    </div>
+  </div>
+  <script>document.getElementById("y").textContent = new Date().getFullYear();</script>
+</body>
+</html>
